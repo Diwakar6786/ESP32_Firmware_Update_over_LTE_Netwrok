@@ -47,7 +47,7 @@ char AT_COMMANDS[3][30] = {{"AT+CPIN?\r\n"},
 
 //++ AT command to establish http connection & get binary file size
 char AT_HTTP_ESTABLISH_COMMAND[4][250] = {{"AT+HTTPINIT\r\n"},
-                                          {"AT+HTTPPARA=\"URL\",\"https://www.alitersolutions.com/beta/iot/blink.bin\"\r\n"},
+                                          {"AT+HTTPPARA=\"URL\",\"url\"\r\n"},
                                           {"AT+HTTPACTION=0\r\n"},
                                           {"AT+HTTPREAD=0,1156\r\n"}};
 
